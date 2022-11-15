@@ -8,17 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		256D14272924032400C368C7 /* GalleryTransitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D14262924032400C368C7 /* GalleryTransitionApp.swift */; };
-		256D14292924032400C368C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D14282924032400C368C7 /* ContentView.swift */; };
+		256D14292924032400C368C7 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D14282924032400C368C7 /* GalleryView.swift */; };
 		256D142B2924032600C368C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256D142A2924032600C368C7 /* Assets.xcassets */; };
 		256D142E2924032600C368C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256D142D2924032600C368C7 /* Preview Assets.xcassets */; };
+		256D1436292403FE00C368C7 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 256D1435292403FE00C368C7 /* Introspect */; };
+		256D14382924058F00C368C7 /* ImageEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D14372924058F00C368C7 /* ImageEntry.swift */; };
+		256D143A2924071300C368C7 /* ScrollViewOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D14392924071300C368C7 /* ScrollViewOffsetPreferenceKey.swift */; };
+		256D143E2924093800C368C7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D143D2924093800C368C7 /* ColorExtension.swift */; };
+		256D14412924099300C368C7 /* BackgroundCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D14402924099300C368C7 /* BackgroundCalc.swift */; };
+		256D1443292409F100C368C7 /* ImageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D1442292409F100C368C7 /* ImageItemView.swift */; };
+		256D144629240A9600C368C7 /* AverageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D144529240A9600C368C7 /* AverageColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		256D14232924032400C368C7 /* GalleryTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalleryTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		256D14262924032400C368C7 /* GalleryTransitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryTransitionApp.swift; sourceTree = "<group>"; };
-		256D14282924032400C368C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		256D14282924032400C368C7 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		256D142A2924032600C368C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		256D142D2924032600C368C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		256D14372924058F00C368C7 /* ImageEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEntry.swift; sourceTree = "<group>"; };
+		256D14392924071300C368C7 /* ScrollViewOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKey.swift; sourceTree = "<group>"; };
+		256D143D2924093800C368C7 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		256D14402924099300C368C7 /* BackgroundCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCalc.swift; sourceTree = "<group>"; };
+		256D1442292409F100C368C7 /* ImageItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItemView.swift; sourceTree = "<group>"; };
+		256D144529240A9600C368C7 /* AverageColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256D1436292403FE00C368C7 /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +65,13 @@
 		256D14252924032400C368C7 /* GalleryTransition */ = {
 			isa = PBXGroup;
 			children = (
+				256D144429240A7700C368C7 /* Extensions */,
 				256D14262924032400C368C7 /* GalleryTransitionApp.swift */,
-				256D14282924032400C368C7 /* ContentView.swift */,
+				256D14372924058F00C368C7 /* ImageEntry.swift */,
+				256D14402924099300C368C7 /* BackgroundCalc.swift */,
+				256D1442292409F100C368C7 /* ImageItemView.swift */,
+				256D14282924032400C368C7 /* GalleryView.swift */,
+				256D14392924071300C368C7 /* ScrollViewOffsetPreferenceKey.swift */,
 				256D142A2924032600C368C7 /* Assets.xcassets */,
 				256D142C2924032600C368C7 /* Preview Content */,
 			);
@@ -65,6 +84,15 @@
 				256D142D2924032600C368C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		256D144429240A7700C368C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				256D143D2924093800C368C7 /* ColorExtension.swift */,
+				256D144529240A9600C368C7 /* AverageColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +111,9 @@
 			dependencies = (
 			);
 			name = GalleryTransition;
+			packageProductDependencies = (
+				256D1435292403FE00C368C7 /* Introspect */,
+			);
 			productName = GalleryTransition;
 			productReference = 256D14232924032400C368C7 /* GalleryTransition.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,9 @@
 				Base,
 			);
 			mainGroup = 256D141A2924032400C368C7;
+			packageReferences = (
+				256D1434292403FE00C368C7 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
 			productRefGroup = 256D14242924032400C368C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				256D14292924032400C368C7 /* ContentView.swift in Sources */,
+				256D14292924032400C368C7 /* GalleryView.swift in Sources */,
+				256D144629240A9600C368C7 /* AverageColor.swift in Sources */,
+				256D14382924058F00C368C7 /* ImageEntry.swift in Sources */,
+				256D14412924099300C368C7 /* BackgroundCalc.swift in Sources */,
+				256D1443292409F100C368C7 /* ImageItemView.swift in Sources */,
 				256D14272924032400C368C7 /* GalleryTransitionApp.swift in Sources */,
+				256D143E2924093800C368C7 /* ColorExtension.swift in Sources */,
+				256D143A2924071300C368C7 /* ScrollViewOffsetPreferenceKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +379,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		256D1434292403FE00C368C7 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		256D1435292403FE00C368C7 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 256D1434292403FE00C368C7 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 256D141B2924032400C368C7 /* Project object */;
 }
